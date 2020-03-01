@@ -1,0 +1,7 @@
+{
+  "name": "ionic-angular-links",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
