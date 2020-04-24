@@ -1,40 +1,42 @@
-# Ionic Angular Setup Universal Links
+# :zap: Ionic Angular Setup Universal Links
 
-Ionic-Angular tutorial app to add a link to a Wordpress site.
+Ionic-Angular tutorial app to add a link to a Wordpress or other site.
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Angular Setup Universal Links](#zap-ionic-angular-setup-universal-links)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 * Requires Android or iOS setup for Cordova Deep Links to work
-
 * All code by Simon Grimm of the [Ionic Academy](https://ionicacademy.com/).
 
-## Screenshots
+## :camera: Screenshots
 
 ![Ionic page](./img/.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic v5.0.0](https://ionicframework.com/)
-* [Angular v8.2.14](https://angular.io/)
-* [Ionic/angular v5.0.0](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v5](https://ionicframework.com/)
+* [Angular v9](https://angular.io/)
+* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
 * [Cordova Deeplinks Plugin](https://www.npmjs.com/package/cordova-plugin-deeplinks)
 
-## Setup
+## :floppy_disk: Setup
 
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
-## Code Examples
+## :computer: Code Examples
 
 * to follow
 
@@ -42,20 +44,20 @@ Ionic-Angular tutorial app to add a link to a Wordpress site.
 to follow
 ```
 
-## Features
+## :cool: Features
 
 * to follow
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
-* Status: Part complete - needs Android or iOS setup to work
+* Status: Part complete - needs Android or iOS setup to work. Future project
 
-* To-do: Complete tutorial by adding Android simulation.
+* To-do: Complete tutorial by adding Android simulation
 
-## Inspiration
+## :clap: Inspiration
 
 * [Simon Grimm, Ionic Academy Tutorial: How to Setup Universal Links in Ionic (iOS & Android)](https://www.youtube.com/watch?v=DG7TMredeUs&t=3s)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
