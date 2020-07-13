@@ -6,12 +6,12 @@
     <ion-title>{{ post?.title.rendered }}</ion-title>
   </ion-toolbar>
 </ion-header>
- 
+
 <ion-content class="ion-padding">
- 
+
   <div *ngIf="post">
     <img [src]="post.media_url" [style.width]="'100%'">
     <div [innerHTML]="post.content.rendered" padding></div>
   </div>
- 
+
 </ion-content>

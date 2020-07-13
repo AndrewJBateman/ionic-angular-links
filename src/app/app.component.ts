@@ -37,12 +37,18 @@ export class AppComponent {
 				'/:slug': 'posts',
 				'/products/:id': '',
 			})
-			.subscribe((match) => {
-				console.log('Successfully matched route', match);
-				const internalPath = `/${match.$route}/${match.$args['slug']}`;
-				this.zone.run(() => {
-					this.router.navigateByUrl(internalPath);
-				});
-			});
+			.subscribe(
+				(match) => {
+					console.log('Successfully matched route', match);
+					const internalPath = `/${match.$route}/${match.$args['slug']}`;
+					this.zone.run(() => {
+						this.router.navigateByUrl(internalPath);
+					});
+				},
+				(nomatch) => {
+					// nomatch.$link - the full link data
+					console.error("Got a deeplink that didn't match", nomatch);
+				}
+			);
 	}
 }
