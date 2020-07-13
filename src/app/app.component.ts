@@ -7,40 +7,42 @@ import { Deeplinks } from '@ionic-native/deeplinks/ngx';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss']
+	selector: 'app-root',
+	templateUrl: 'app.component.html',
+	styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(
-    private platform: Platform,
-    private splashScreen: SplashScreen,
-    private statusBar: StatusBar,
-    private deepLinks: Deeplinks,
-    private router: Router,
-    private zone: NgZone
-  ) {
-    this.initializeApp();
-  }
+	constructor(
+		private platform: Platform,
+		private splashScreen: SplashScreen,
+		private statusBar: StatusBar,
+		private deepLinks: Deeplinks,
+		private router: Router,
+		private zone: NgZone
+	) {
+		this.initializeApp();
+	}
 
-  initializeApp() {
-    this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
-      this.setupDeepLinks();
-    });
-  }
+	initializeApp() {
+		this.platform.ready().then(() => {
+			this.statusBar.styleDefault();
+			this.splashScreen.hide();
+			this.setupDeepLinks();
+		});
+	}
 
-  setupDeepLinks() {
-    this.deepLinks.route({
-      '/:slug': 'posts',
-      '/products/:id': ''
-    }).subscribe(match => {
-      console.log('Successfully matched route', match);
-      const internalPath = `/${match.$route}/${match.$args['slug']}`;
-      this.zone.run(() => {
-        this.router.navigateByUrl(internalPath);
-      })
-    });
-  }
+	setupDeepLinks() {
+		this.deepLinks
+			.route({
+				'/:slug': 'posts',
+				'/products/:id': '',
+			})
+			.subscribe((match) => {
+				console.log('Successfully matched route', match);
+				const internalPath = `/${match.$route}/${match.$args['slug']}`;
+				this.zone.run(() => {
+					this.router.navigateByUrl(internalPath);
+				});
+			});
+	}
 }

@@ -1,15 +1,15 @@
 # :zap: Ionic Angular Setup Universal Links
 
-Ionic-Angular tutorial app to add a link to a Wordpress or other site.
+* Ionic-Angular tutorial app to add a link to a Wordpress or other site.
 
 ## :page_facing_up: Table of contents
 
 * [:zap: Ionic Angular Setup Universal Links](#zap-ionic-angular-setup-universal-links)
-  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signalstrength-technologies)
-  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
@@ -28,7 +28,7 @@ Ionic-Angular tutorial app to add a link to a Wordpress or other site.
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v9](https://angular.io/)
+* [Angular v10](https://angular.io/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
 * [Cordova Deeplinks Plugin](https://www.npmjs.com/package/cordova-plugin-deeplinks)
 
@@ -51,7 +51,6 @@ to follow
 ## :clipboard: Status & To-do list
 
 * Status: Part complete - needs Android or iOS setup to work. Future project
-
 * To-do: Complete tutorial by adding Android simulation
 
 ## :clap: Inspiration
