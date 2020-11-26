@@ -1,6 +1,7 @@
 # :zap: Ionic Angular Setup Universal Links
 
 * Ionic-Angular tutorial app to add a link to a Wordpress or other site.
+* Tutorial code from [Simon Grimmm at the Ionic Acamdemy](https://www.youtube.com/user/saimon1924)
 
 ## :page_facing_up: Table of contents
 
@@ -28,12 +29,13 @@
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
 * [Cordova Deeplinks Plugin](https://www.npmjs.com/package/cordova-plugin-deeplinks)
 
 ## :floppy_disk: Setup
 
+* Run `npm i to install dependencies`
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
 ## :computer: Code Examples
