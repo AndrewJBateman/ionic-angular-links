@@ -1,7 +1,7 @@
 # :zap: Ionic Angular Setup Universal Links
 
 * Ionic-Angular tutorial app to add a link to a Wordpress or other site.
-* Tutorial code from [Simon Grimmm at the Ionic Acamdemy](https://www.youtube.com/user/saimon1924)
+* Tutorial code from [Simon Grimmm at the Ionic Acamdemy](https://www.youtube.com/user/saimon1924) - see [:clap: Inspiration](#clap-inspiration) below
 
 ## :page_facing_up: Table of contents
 
