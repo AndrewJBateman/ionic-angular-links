@@ -28,15 +28,15 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
-* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
+* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
 * [Cordova Deeplinks Plugin](https://www.npmjs.com/package/cordova-plugin-deeplinks)
 
 ## :floppy_disk: Setup
 
 * Run `npm i to install dependencies`
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* To start the server on _localhost://8100_ type: `ionic serve`
 
 ## :computer: Code Examples
 
@@ -59,6 +59,10 @@ to follow
 
 * [Simon Grimm, Ionic Academy Tutorial: How to Setup Universal Links in Ionic (iOS & Android)](https://www.youtube.com/watch?v=DG7TMredeUs&t=3s)
 
+## :file_folder: License
+
+* N/A
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
