@@ -1,4 +1,4 @@
-import { Component, NgZone } from '@angular/core';
+import { Component, Inject, NgZone } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
@@ -17,7 +17,7 @@ export class AppComponent {
 		private splashScreen: SplashScreen,
 		private statusBar: StatusBar,
 		private deepLinks: Deeplinks,
-		private router: Router,
+		@Inject(Router) private router: Router,
 		private zone: NgZone
 	) {
 		this.initializeApp();
